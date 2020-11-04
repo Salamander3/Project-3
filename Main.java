@@ -14,7 +14,13 @@ class Main {
     for(int index = 0; index < studentNames.length; index++)
     {
       System.out.println("Enter Student Name");
-      studentNames[index] = scan.nextLine();
+      {
+        studentNames[index] = scan.nextLine();
+      }
+    }
+    for(int index = 0; index < studentNames.length;index++)
+    {
+      System.out.println(studentNames[index] + " stits at desk " + seatNumber[index]);
     }
   }
 }
