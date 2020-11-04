@@ -10,14 +10,20 @@ class Main {
     //Array of student names
     String[] studentNames = new String[15];
     
-    //Main loop for asking for student names
+    //Loop for asking for student names
     for(int index = 0; index < studentNames.length; index++)
     {
       System.out.println("Enter Student Name");
       {
         studentNames[index] = scan.nextLine();
+        System.out.println();
       }
     }
+
+    //Spacing to make it look pretty
+    System.out.println();
+
+    //Loop that prints out students seating locations
     for(int index = 0; index < studentNames.length;index++)
     {
       System.out.println(studentNames[index] + " stits at desk " + seatNumber[index]);
