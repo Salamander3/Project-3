@@ -6,13 +6,13 @@ class Main {
     //Adds the scanner
     Scanner scan = new Scanner(System.in);
 
-    //Array of seat number
+    //Array of seat number.
     int[] seatNumber = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
     
-    //Array of student names
+    //Array of student names.
     String[] studentNames = new String[15];
     
-    //Loop for asking for student names
+    //Loop for asking for student names.
     for(int index = 0; index < studentNames.length; index++)
     {
       System.out.println("Enter Student Name");
@@ -22,7 +22,7 @@ class Main {
       System.out.println();
     }
 
-    //A lot spacing to make it look pretty
+    //A lot spacing to make it look pretty.
     System.out.println("Done!");
     System.out.println();
     System.out.println();
@@ -30,10 +30,10 @@ class Main {
     System.out.println();
     System.out.println();
 
-    // Declaers and sets an index
+    //Declares and sets an index.
     int index = 0;
 
-    //Loop that prints out students seating locations
+    //Loop that prints out students seating locations.
     while(index < studentNames.length)
     {
       System.out.println(" " + studentNames[index] + " sits at desk " + seatNumber[index] + ". ");
