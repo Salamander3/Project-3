@@ -23,6 +23,7 @@ class Main {
     }
 
     //A lot spacing to make it look pretty
+    System.out.println(Done!);
     System.out.println();
     System.out.println();
     System.out.println();
@@ -35,7 +36,7 @@ class Main {
     //Loop that prints out students seating locations
     while(index < studentNames.length)
     {
-      System.out.println(studentNames[index] + " sits at desk " + seatNumber[index]);
+      System.out.println(" " + studentNames[index] + " sits at desk " + seatNumber[index] + ". ");
 
       System.out.println();
 
