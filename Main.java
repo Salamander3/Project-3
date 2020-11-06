@@ -22,7 +22,11 @@ class Main {
       System.out.println();
     }
 
-    //Spacing to make it look pretty
+    //A lot spacing to make it look pretty
+    System.out.println();
+    System.out.println();
+    System.out.println();
+    System.out.println();
     System.out.println();
 
     // Declaers and sets an index
@@ -32,11 +36,10 @@ class Main {
     while(index < studentNames.length)
     {
       System.out.println(studentNames[index] + " sits at desk " + seatNumber[index]);
-      
+
       System.out.println();
 
       index++;
-
     }
 
   }
