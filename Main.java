@@ -16,7 +16,9 @@ class Main {
     for(int index = 0; index < studentNames.length; index++)
     {
       System.out.println("Enter Student Name");
+
       studentNames[index] = scan.nextLine();
+
       System.out.println();
     }
 
@@ -25,12 +27,17 @@ class Main {
 
     // Declaers and sets an index
     int index = 0;
-    
+
     //Loop that prints out students seating locations
     while(index < studentNames.length)
     {
       System.out.println(studentNames[index] + " sits at desk " + seatNumber[index]);
+      
+      System.out.println();
+
       index++;
+
     }
+
   }
 }
