@@ -23,7 +23,7 @@ class Main {
     }
 
     //A lot spacing to make it look pretty
-    System.out.println(Done!);
+    System.out.println("Done!");
     System.out.println();
     System.out.println();
     System.out.println();
